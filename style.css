@@ -1,0 +1,81 @@
+html { 
+    background-color: darkgrey;
+    font-family: courier new;   
+}
+
+
+h1 { 
+    text-align: center;
+    color: maroon;
+}
+
+h2 { 
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    padding:5px;
+    border:5px solid #021a40;
+    border-color: maroon;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: maroon;
+}
+
+p { 
+    font-style: normal;
+    line-height: 20px;
+}
+
+.topnav {
+    float: left;
+    color: black;
+}
+
+.nav ul{
+    float: center;
+    text-align: center;
+    list-style: none;
+    padding: 20px 20px; 
+}
+
+.nav li{
+    display: inline; 
+    padding: 20px;
+    font-size: 50px;
+    }
+
+div.gallery {
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    padding: 50px;
+}
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.clear {
+    clear: left;
+    margin: 10px;
+    width: 200px;
+    padding: 50px;
+}
+
+
+
+
