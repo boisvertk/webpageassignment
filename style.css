@@ -58,6 +58,10 @@ nav {
     font-size: 25px;
     }
 
+nav a.active {
+    color: maroon;
+}
+
 div.gallery {
 /*    display: inline-block;*/
     float: left;
