@@ -11,9 +11,6 @@ h1 {
 h2 { 
     font-style: italic;
 }
-.wrapper2 {
-    padding-bottom: 5px;
-}
 
 .info{ 
     font-style: normal;
@@ -25,6 +22,8 @@ img {
     border:5px solid maroon;
     border-color: maroon;
     float: right;
+    image-orientation: from-image;
+
 }
 
 a:link {
@@ -56,11 +55,12 @@ nav {
 .nav li{
     display: inline; 
     padding: 20px;
-    font-size: 50px;
+    font-size: 25px;
     }
 
 div.gallery {
-    display: inline-block;
+/*    display: inline-block;*/
+    float: left;
     margin: 10px;
     width: 200px;
     padding: 50px;
